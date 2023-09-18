@@ -18,23 +18,28 @@ Node.js: If you don't have Node.js installed, you can download and install it fr
 npm (Node Package Manager): npm comes bundled with Node.js. You can check its version by running the following commands in your terminal:
 
 node -v
+
 npm -v
 
 ## Getting Started
 Follow these steps to set up and run my mini project:
 
 1. Clone the Project
+
    Clone the project from my GitHub repository using the following command:
 
 git clone https://github.com/dineshbellamkonda12/HireAra-Mini-Project.git
 
 2. Run the Project
+
    Navigate to the project directory and start the development server with npm:
 
 cd HireAra-Mini-Project
+
 npm start
 
 3. View the Project
+
    You can instantly view the project by accessing it via the following Netlify link:
 
 https://sai-dinesh-mini-project688518.netlify.app/
