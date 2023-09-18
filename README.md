@@ -1,7 +1,10 @@
 ## Features:
 Reversed React Icon Rotation: I've added functionality that changes the rotation direction of the React icon with every user click.
+
 Cursor-Based Icon Sizing: Now, the size of the React icon dynamically adjusts based on the cursor's position on the page.
+
 Mouse Activity Timer: I've implemented a feature that displays the duration the mouse remains stationary within the visible page, below the icon.
+
 Sidebar Toggle: On left top of the screen, click on hamburger to open sidebar where any of the previous changes can be switched on or off.
 
 ## React App Setup
