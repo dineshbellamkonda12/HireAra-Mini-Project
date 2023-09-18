@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+## Features:
+Reversed React Icon Rotation: I've added functionality that changes the rotation direction of the React icon with every user click.
+Cursor-Based Icon Sizing: Now, the size of the React icon dynamically adjusts based on the cursor's position on the page.
+Mouse Activity Timer: I've implemented a feature that displays the duration the mouse remains stationary within the visible page, below the icon.
+Sidebar Toggle: On left top of the screen, click on hamburger to open sidebar where any of the previous changes can be switched on or off.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React App Setup
+Welcome to the setup guide for my mini project. Follow the steps below to get started.
 
-## Available Scripts
+## Prerequisites
+Before you dive in, ensure that your system meets the following requirements:
 
-In the project directory, you can run:
+Node.js: If you don't have Node.js installed, you can download and install it from nodejs.org.
 
-### `npm start`
+npm (Node Package Manager): npm comes bundled with Node.js. You can check its version by running the following commands in your terminal:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+node -v
+npm -v
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+Follow these steps to set up and run my mini project:
 
-### `npm test`
+1. Clone the Project
+   Clone the project from my GitHub repository using the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/dineshbellamkonda12/HireAra-Mini-Project.git
 
-### `npm run build`
+2. Run the Project
+   Navigate to the project directory and start the development server with npm:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd HireAra-Mini-Project
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. View the Project
+   You can instantly view the project by accessing it via the following Netlify link:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://sai-dinesh-mini-project688518.netlify.app/
 
-### `npm run eject`
+That's it! You're ready to play with my mini project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
