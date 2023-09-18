@@ -1,15 +1,39 @@
 .App {
   text-align: center;
+  z-index: 1;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  cursor: pointer;
 }
+
+.Hamburger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px;
+  width: 30px;
+  height: 20px;
+  position: fixed;
+  top: 0; /* Fixed to the top */
+  left: 20px; /* Adjust the left position as needed */
+}
+
+.HamburgerLine {
+  z-index: 1;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    z-index: -9999;
   }
 }
 

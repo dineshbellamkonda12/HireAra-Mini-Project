@@ -1,0 +1,99 @@
+.Sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -0px; /* Initially hidden */
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.SidebarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.CloseButton {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.CloseButton:hover {
+  color: #f00;
+}
+
+.Options {
+  display: flex;
+  flex-direction: column;
+}
+
+.Option {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Option input {
+  margin-right: 10px;
+}
+
+.OptionLabel {
+  font-size: 14px;
+  margin: 10px;
+  text-align: left;
+  font-size: medium;
+}
+
+.Checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.Checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.Checkbox .Checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 4px;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-right: 10px; /* Add spacing between the checkbox and label */
+}
+
+.Checkbox .Checkmark::before {
+  content: '\2713'; /* Checkmark Unicode character */
+  font-size: 18px;
+  color: #333;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.Checkbox input:checked + .Checkmark {
+  background-color: #333;
+  border-color: #333;
+}
+
+.Checkbox input:checked + .Checkmark::before {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .Sidebar {
+    z-index: 9999;
+  }
+}
