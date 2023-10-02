@@ -1,3 +1,6 @@
+## Game Play with React Icon:
+'Game Play with React Icon' is an app where you can interact and play with react icon. This app was developed using HTML 5, CSS 3, JavaScript and React JS 
+
 ## Features:
 Reversed React Icon Rotation: I've added functionality that changes the rotation direction of the React icon with every user click.
 
@@ -34,7 +37,7 @@ git clone https://github.com/dineshbellamkonda12/HireAra-Mini-Project.git
 
    Navigate to the project directory and start the development server with npm:
 
-cd HireAra-Mini-Project
+cd React-Icon-Mini-Project
 
 npm start
 
@@ -45,5 +48,3 @@ npm start
 https://sai-dinesh-mini-project688518.netlify.app/
 
 That's it! You're ready to play with my mini project.
-
-
